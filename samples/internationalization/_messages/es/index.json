@@ -1,0 +1,15 @@
+{
+    "title": "Página principal",
+    "css": [
+        "/assets/css/index.css"
+    ],
+    "hero": {
+        "headline": "Mi sitio web estático",
+        "subHeading": "Este sitio se creó con el creador de sitios web estáticos.",
+        "cta": {
+            "url": "#",
+            "label": "INSTALAR"
+        }
+    },
+    "intro": "Este generador de sitios web estáticos funciona con Handlebars. Apoya la internacionalización y la minificación."
+}

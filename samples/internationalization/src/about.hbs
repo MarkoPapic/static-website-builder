@@ -1,0 +1,18 @@
+<!--@swb messages ../_messages/<lang>/_shared.json-->
+<!--@swb messages ../_messages/<lang>/about.json-->
+
+<!DOCTYPE html>
+<html lang="{{__lang}}">
+{{> _templates/_head }}
+
+<body>
+    {{> _templates/_header }}
+    <main role="main">
+        <section>
+            {{content}}
+        </section>
+    </main>
+    {{> _templates/_footer }}
+</body>
+
+</html>

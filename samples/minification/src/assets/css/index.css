@@ -1,0 +1,37 @@
+.landing-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 100px 0;
+}
+
+    .landing-header .hero {
+        min-width: 450px;
+    }
+
+        .landing-header .hero .hero-container-center {
+            max-width: 40vw;
+            margin: 0 auto;
+        }
+
+        .landing-header .hero .hero-headline {
+            font-size: 44px;
+            font-weight: bold;
+            margin-bottom: 44px;
+        }
+
+        .landing-header .hero .hero-supporting {
+            font-size: 28px;
+            margin: 32px 0;
+            line-height: 1.4;
+        }
+
+    .landing-header .hero-shot {
+        max-width: 600px;
+    }
+
+.landing-page-section-colored {
+    padding: 50px 0;
+    background-color: #fafafa;
+}

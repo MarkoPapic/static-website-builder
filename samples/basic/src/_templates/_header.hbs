@@ -1,0 +1,13 @@
+<header class="header">
+    {{#with header}}
+    <a class="brand-link responsive-hidden" href="/">
+        <img class="brand-link-img" src="/assets/img/logo.svg" /><span
+            style="vertical-align: middle; font-size: 26px;font-weight: bold;">&nbsp;&nbsp;static website</span>
+    </a>
+    <div class="nav-links">
+        {{#each navLinks}}
+        <a class="nav-link" href="{{url}}">{{label}}</a>
+        {{/each}}
+    </div>
+    {{/with}}
+</header>

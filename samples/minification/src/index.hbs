@@ -1,0 +1,40 @@
+<!--@swb messages ../_messages/_shared.json-->
+<!--@swb messages ../_messages/index.json-->
+
+<!DOCTYPE html>
+<html lang="en">
+{{> _templates/_head }}
+
+<body>
+    {{> _templates/_header }}
+
+    <main>
+        <div class="landing-header">
+            {{#with hero}}
+            <div class="hero slide-top">
+                <div class="hero-container-center">
+                    <h1 class="hero-headline">{{headline}}</h1>
+                    <div class="hero-supporting">{{{subHeading}}}</div>
+                    <div class="center-text">
+                        <a href="{{cta.url}}" class="cta-btn">{{cta.label}}</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-shot-container">
+                <img src="/assets/img/hero.jpg" class="hero-shot" />
+                <div>Photo by <a href="https://unsplash.com/@_giri_?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">AARN GIRI</a> on <a href="https://unsplash.com/t/nature?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></div>
+            </div>
+            {{/with}}
+        </div>
+
+        <section class="landing-page-section-colored">
+            <div class="centered-limited-width-content">
+                <p>{{intro}}</p>
+            </div>
+        </section>
+    </main>
+
+    {{> _templates/_footer }}
+</body>
+
+</html>

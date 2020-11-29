@@ -1,0 +1,13 @@
+{
+    "header": {
+        "navLinks": [
+            {
+                "url": "/about.html",
+                "label": "ABOUT"
+            }
+        ]
+    },
+    "footer": {
+        "companyName": "Marko Papic"
+    }
+}

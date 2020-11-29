@@ -1,0 +1,15 @@
+{
+    "title": "Home",
+    "css": [
+        "/assets/css/index.css"
+    ],
+    "hero": {
+        "headline": "My static website",
+        "subHeading": "This site was build using the static website builder.",
+        "cta": {
+            "url": "#",
+            "label": "INSTALL"
+        }
+    },
+    "intro": "This static website generator is powered by Handlebars. It supports internationalization and minification."
+}

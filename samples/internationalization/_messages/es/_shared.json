@@ -1,0 +1,13 @@
+{
+    "header": {
+        "navLinks": [
+            {
+                "url": "/about.html",
+                "label": "SOBRE NOSOTROS"
+            }
+        ]
+    },
+    "footer": {
+        "companyName": "Marko Papic"
+    }
+}
