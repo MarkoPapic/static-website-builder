@@ -1,0 +1,14 @@
+{
+  "name": "static-website-builder",
+  "version": "0.0.1",
+  "description": "Static website builder.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marko Papic",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.7.6"
+  }
+}
