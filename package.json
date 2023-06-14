@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "clean-css": "^4.2.3",
-    "handlebars": "^4.7.6"
+    "handlebars": "^4.7.6",
+    "showdown": "^1.9.1"
   }
 }
